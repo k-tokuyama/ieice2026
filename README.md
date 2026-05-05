@@ -30,7 +30,7 @@ The function that calculates the expected longterm average of the handover rate,
  - Available for the 2 types of the PPCP classes; Thomas point process (->TCP) and Mattern cluster process (->MCP).
      - 1st argument: the system parameter set csv; see "param_set_example.csv".
      - 2nd argument: the PPCP class indicator; TCP(tcp)/MCP(mcp).
-     - Running command example: python main_cHOR_v3-d200.py param_set_example.csv
+     - Running command example: python main_cHOR_v3-d200.py param_set_example.csv MCP
  - Required modules: sys, csv, random, time, NumPy, SciPy, func_MeanPeriod_v3 (just put "func_MeanPeriod_v3.py" on the same directory)
 
 Operation confirmed in Python 3.12.3.
